@@ -1,16 +1,7 @@
-remix=input()
-start=0
-prev=0
-count=remix.count("WUB",start)
+str=input()
+list=str.split("WUB")
 res=""
-if(count):
-    start=remix.index("WUB",start)
-else:
-    print(remix)
-res=remix[prev:start]
-while(count):
-    prev=start+3
-    count=remix.count("WUB",start+3)
-    start=remix.index("WUB",start+3)
-    res=res+" "+remix[prev:start]
-print(remix)
+for i in list:
+    if i!="":
+        res+=(i+" ")
+print(res[:-1])

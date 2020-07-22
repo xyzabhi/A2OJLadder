@@ -1,0 +1,1 @@
+{"group":"local","interactive":false,"local":true,"memoryLimit":1024,"name":"Local: cheaptravel","srcPath":"/home/abkech/Documents/a2ojladder/DIV2A/cheaptravel.cpp","tests":[{"id":1595408357997,"input":"6 2 1 2","output":"6"},{"id":1595408935188,"input":"5 2 2 3","output":"8"}],"timeLimit":3000,"url":"/home/abkech/Documents/a2ojladder/DIV2A/cheaptravel.cpp"}
